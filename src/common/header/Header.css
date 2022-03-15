@@ -1,0 +1,53 @@
+.header-container {
+    background-color: purple;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+
+.logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: logo-spin infinite 8s linear;
+    position: absolute;
+    left: initial;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: scaleX(-1);
+    }
+}
+
+.login-button,
+.bookShow-button {
+    float: right;
+}
+
+.bookShow-button {
+    margin-right: 10px;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
+
+.form-control-css {
+    margin: auto;
+}
+
+.modalContainerStyle {
+    padding: 0px;
+    text-align: center
+}
